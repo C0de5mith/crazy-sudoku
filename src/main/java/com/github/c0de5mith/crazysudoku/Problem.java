@@ -7,6 +7,7 @@ import com.github.c0de5mith.crazysudoku.solver.PossibilitySet;
 
 import java.util.List;
 
+//Just a testing problem
 public class Problem {
     private static short[][] seed;
     private static void set(int x, int y, int n){
@@ -14,6 +15,7 @@ public class Problem {
     }
     public static void main(String[] args){
         seed = new short[9][9];
+	//World's "hardest" sudoku
         set(0, 0, 8);
         set(2, 1, 3);
         set(3, 1, 6);
